@@ -1,0 +1,51 @@
+#container {
+    background-color: dodgerblue;
+    width: 600px;
+    height: 600px;
+    top: -50px;
+    left: 320px;
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.37);
+}
+
+button {
+    width: 125px;
+    top: 50%;
+    left: 50%;
+}
+
+.circle {
+    background-color: rgba(128, 0, 128, 0.8);
+    border-radius: 50%;
+    position: absolute;
+}
+
+.triangle {
+	border-top: 100px;
+    border-right: 100px;
+    position: absolute;
+    
+}
+
+.rectangle {
+    background-color: rgba(0, 128, 0, 0.8);
+    position: absolute;
+}
+
+.square {
+    background-color: rgba(255, 0, 0, 0.8);
+    position: absolute;
+}
+
+.info {
+    background-color: rgba(235, 52, 235, 0.973);
+    width: 200px;
+    height: 300px;
+    bottom: 500px;
+    left: 950px;
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.411);
+    color: rgba(255, 255, 255, 0.932);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 40px;
+}
